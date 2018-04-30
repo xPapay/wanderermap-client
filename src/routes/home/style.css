@@ -1,0 +1,56 @@
+.nav {
+	text-align: right;
+	margin: 20px 20px 0 0;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+.nav__link {
+	background: #20CAAE;
+	padding: 5px 12px;
+	color: white;
+}
+
+.content {
+	max-width: 640px;
+	margin: 100px auto;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	padding: 0 10px;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.headline {
+	font-weight: 400;
+	margin: 100px 0 40px;
+	text-align: center;
+}
+
+.paragraph {
+	font-weight: 200;
+	line-height: 1.5;
+	font-size: 1.4rem;
+}
+
+.stat {
+	max-width: 300px;
+	margin: 80px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stat__counter {
+	font-size: 4.5rem;
+	font-weight: 700;
+	color: #20CAAE;
+	margin-left: 20px;
+}
+
+.author {
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	text-align: right;
+	margin: 20px 40px;
+}

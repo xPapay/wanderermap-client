@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700');
+@import 'normalize.css';
+
+html {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
