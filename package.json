@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "wanderermap-client",
+  "name": "wanderermap.com",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -24,7 +24,9 @@
     "if-env": "^1.0.0",
     "jest": "^21.2.1",
     "preact-cli": "^2.1.0",
-    "preact-render-spy": "^1.2.1"
+    "preact-cli-plugin-fast-async": "github:plusCubed/preact-cli-plugin-fast-async",
+    "preact-render-spy": "^1.2.1",
+    "window-or-global": "^1.0.1"
   },
   "dependencies": {
     "preact": "^8.2.6",

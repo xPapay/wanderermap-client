@@ -1,5 +1,6 @@
 let counter = 0;
 let scriptMap = new Map();
+import window from 'window-or-global';
 
 export const ScriptCache = (function(global) {
   return function ScriptCache (scripts) {
