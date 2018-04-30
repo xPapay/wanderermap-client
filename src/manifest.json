@@ -1,6 +1,6 @@
 {
-  "name": "wanderermap-client",
-  "short_name": "wanderermap-client",
+  "name": "Wanderermap",
+  "short_name": "Wanderermap",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
