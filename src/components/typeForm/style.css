@@ -1,0 +1,9 @@
+.typeform {
+    display: inline-block;
+    text-decoration: none;
+    background-color:#20CAAE;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px 4px;
+}

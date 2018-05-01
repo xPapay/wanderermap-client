@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 import { Link } from 'preact-router/match';
+import TypeForm from '../../components/typeForm';
 import style from './style';
 import logo from './logo.svg';
 import showersPin from './showers_pin.svg';
@@ -40,8 +41,8 @@ export default class Home extends Component {
 					</div>
 					<p className={style.paragraph}>
 						The app is currently under active development. Adding new spots is currently not possible,
-                        however for time being you can submit new spot via this form.
-                </p>
+                        however for time being you can submit new spot via this <TypeForm>form</TypeForm>
+					</p>
 				</section>
 				<div className={style.author}>
 					<small>by <a href="https://lukaspapay.com">lukaspapay.com</a></small>
